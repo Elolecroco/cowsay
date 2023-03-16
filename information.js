@@ -1,8 +1,10 @@
-const name = 'Elo';
-const campus = 'Biarritz';
+const info = {
+    name: 'Elo',
+    campus: 'Biarritz',
+};
 
 module.exports = {
-    name: name,
-    campus: campus,
+    name: info.name,
+    campus: info.campus,
 };
 
